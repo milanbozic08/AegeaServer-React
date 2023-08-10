@@ -1,0 +1,61 @@
+.component-container {
+  width: 339px;
+  height: 419px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+}
+.component-text {
+  color: #ffffff;
+  font-size: 1.875rem;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.component-text1 {
+  color: #ffffff;
+  align-self: flex-start;
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgba(217, 217, 217, 0);
+}
+.component-textinput {
+  width: 100%;
+  margin-top: 0px;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius50);
+  margin-bottom: 0px;
+}
+.component-label {
+  color: #ffffff;
+  align-self: flex-start;
+  font-style: italic;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+}
+.component-textinput1 {
+  width: 100%;
+  margin-top: 0px;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius50);
+  margin-bottom: 0px;
+}
+.component-button {
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: auto;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius50);
+}
